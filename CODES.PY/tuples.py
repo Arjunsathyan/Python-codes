@@ -1,3 +1,5 @@
+#tuples are similar to lists. However, tuples are immutable. 
+
 tuple1=("Arjun", 57000, "IT department")
 print(tuple1)
 name,sal,dep=tuple1
@@ -14,5 +16,9 @@ for i in tuple1 :
    print("members are", i)
 s=( {1,2,4}, [3,6,8], (9,10,11) )
 print(s)
+# To convert tuple to list 
+Tup = (1,2,3,4,5,6)
+l = list(Tup)
+
 
 
