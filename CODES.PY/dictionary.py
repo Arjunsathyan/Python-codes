@@ -13,3 +13,13 @@ print(mydict)
 record={"n":"Arjun","age":20,"dep":"Developer"}
 print(record)
 print(record["n"]);
+
+# To input a dictionary 
+d = {}
+n = input("Enter number of key-value pairs/ elements you want in your dictionary")
+while n>0:
+  k = input("enter the key")
+  v = input("enter the value")
+  d[k] = v 
+  n = n-1 
+print(d[k])
